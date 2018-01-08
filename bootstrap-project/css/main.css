@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Crete+Round|Cabin');
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #587F65;
+    color: #fff;
+}
+
+* {
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Crete Round', Times, 'Times New Roman', serif;
+}
+
+header {
+    margin-top: 3.5rem
+}
+
+.nav-green {
+    background-color: #587F65;
+}
+.btn-blue {
+    margin-left:10px;
+    background-color: #6172AC;
+    transition: fill 0.2s
+}
+
+.btn-blue:hover {
+    background-color: brown;
+}
+
+.btn-blue:active {
+    background-color: #C77;
+}
+
+.jumbotron-title {
+    background-image: url(../img/forest.jpg);
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+}
+.card-title{
+    margin-left:10px;
+   
+}
+.card-text{
+    padding-left:15px;
+}
+.card-block{
+    margin-bottom:10px;
+}
+.card{
+    
+    box-shadow: 7.5px 10px 10px 3px black;
+    background-color:#45634F;
+    color:white;
+    clear:both;
+    margin: 10px;
+    padding: 10px;
+    border:10px;
+    
+}
+h1{
+    text-align: center;
+}
+
+.jumbotron-light {
+    background-color: white;
+    color: #587F65;
+}
+
+.jumbotron-dark {
+    color: white;
+    background-color: #587F65;
+}
+
+.container-title {
+    background-color: #fff;
+    color:#587F65 ;
+    box-shadow: 0 2px 6px rgba(126, 132, 122, 0.43)
+}
+
+.wrap {
+    min-height: 94vh;
+    height: auto !important;
+    margin: 0 auto -12rem;
+    
+}
+
+footer,
+.push {
+    height: 12rem;
+}
+
+
+footer {
+    line-height: 3rem;
+    background-color: #587F65;
+    color: white
+}
+
+.iconic {
+    fill: white;
+    transition: fill 0.2s;
+}
+
+.iconic:hover {
+    fill: #6E6534;
+}
+
+.iconic:active {
+    fill: #6E6534;
+}
+.small{
+    float:right;
+    clear:both;
+}
+
